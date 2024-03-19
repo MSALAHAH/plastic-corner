@@ -483,7 +483,7 @@ the website, in dark theme
 
 .tab-content {
   display: none;
-  padding: 20px;
+  padding: 5px;
   border: none;
   border-top: none;
 }
@@ -524,6 +524,10 @@ the website, in dark theme
 
 .product__title{
   margin-bottom: .25rem;
+}
+
+.product-description {
+  font-size: 14px;
 }
 
 .product__button{
