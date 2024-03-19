@@ -83,7 +83,7 @@ body{
   margin: var(--header-height) 0 0 0;
   background-color: var(--body-color);
   color: var(--text-color);
-  transition: .4s; /*For animation dark mode*/
+  transition: .6s; /*For animation dark mode*/
 }
 
 button{
@@ -456,7 +456,7 @@ the website, in dark theme
   display: flex;
   justify-content: space-between;
   font-weight: bold;
-  width: 332px;
+  width: 75%;
   margin: 3rem auto;
   padding: 3px;
   border-radius: 10px;
@@ -665,7 +665,7 @@ the website, in dark theme
 .footer__container{
   row-gap: 3rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .footer__logo{
@@ -692,14 +692,6 @@ the website, in dark theme
 .footer__title{
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-1-5);
-}
-
-.footer__subscribe{
-  background-color: var(--first-color-lighten);
-  padding: .75rem;
-  display: flex;
-  justify-content: space-between;
-  border-radius: .5rem;
 }
 
 .footer__input{
@@ -813,6 +805,10 @@ the website, in dark theme
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 @media screen and (max-width: 320px){
+  .section{
+    padding: 8rem 0 1rem;
+  }
+
   .container{
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
@@ -844,6 +840,10 @@ the website, in dark theme
 
 /* For medium devices */
 @media screen and (min-width: 576px){
+  .section{
+    padding: 8rem 0 1rem;
+  }
+
   .steps__container{
     grid-template-columns: repeat(2, 1fr);
   }
@@ -860,6 +860,10 @@ the website, in dark theme
 
 /* For medium devices */
 @media screen and (min-width: 375px){
+  .section{
+    padding: 8rem 0 1rem;
+  }
+
   .home__img{
     width: 300px;
   }
@@ -870,6 +874,10 @@ the website, in dark theme
 }
 
 @media screen and (min-width: 767px){
+  .section{
+    padding: 8rem 0 1rem;
+  }
+
   body{
     margin: 0;
   }
@@ -916,7 +924,7 @@ the website, in dark theme
   .footer__container{
     column-gap: 3rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
   .footer__subscribe{
     width: initial;
@@ -1002,7 +1010,7 @@ the website, in dark theme
   }
   .footer__container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-direction: row;
   }
 }
